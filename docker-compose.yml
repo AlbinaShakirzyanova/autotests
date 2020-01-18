@@ -6,3 +6,5 @@ services:
     build:
       context: .
       dockerfile: DockerFile
+     environment:
+      - TEAMCITY_PROJECT_NAME
